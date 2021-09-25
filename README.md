@@ -12,18 +12,20 @@ This project consists in reading song data from a subset of data from the [Milli
 
 ##### Dimension Tables
 
-1. users
-   * users in the app
-     * *user_id, first_name, last_name, gender, level*
-2. songs
-   * songs in music database
-     * *song_id, title, artist_id, year, duration*
-3. artists
-   * artists in music database
-     * *artist_id, name, location, latitude, longitude*
-4. times
+1. times
    - timestamps of records in **songplays** broken down into specific units
      - *start_time, hour, day, week, month, year, weekday*
+2. users
+   * users in the app
+     * *user_id, first_name, last_name, gender, level*
+3. songs
+   * songs in music database
+     * *song_id, title, artist_id, year, duration*
+4. artists
+   * artists in music database
+     * *artist_id, name, location, latitude, longitude*
+
+![ERD](sparkifydb_erd.png)
 
 ## Files description
 
