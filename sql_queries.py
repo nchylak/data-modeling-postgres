@@ -15,7 +15,7 @@ songplay_table_create = ("""
         user_id int references users(user_id) NOT NULL,
         level varchar,
         song_id varchar references songs(song_id),
-        artist_id references artists(artist_id) varchar,
+        artist_id varchar references artists(artist_id),
         session_id varchar,
         location varchar,
         user_agent varchar
